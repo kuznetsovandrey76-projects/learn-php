@@ -3,5 +3,5 @@
 <?php 
 // php - personal home page 
 $string = 'php - текст';
-echo $string; 
+echo $string . "<br>new"; 
 ?>
