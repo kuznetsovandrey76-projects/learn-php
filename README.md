@@ -1,5 +1,9 @@
-1. скачать OpenServer
+`ssh-keygen` - создаем ключ для github
+копируем его из `C:\Users\andrey\.ssh\id_rsa.pub`
+Добавляем в `SSH and GPG keys`
+- скачать OpenServer
 `https://ospanel.io/download/`
-2. установить в корень диска C
-3. создаем папку <name> и переходим в нее 
+- установить в корень диска C
+- создаем папку `<name>` и переходим в нее 
 `cd /c/OSPanel/domains/<name>`
+- создаем файл `.htaccess` и прописываем кодировку `AddDefaultCharset UTF-8`
